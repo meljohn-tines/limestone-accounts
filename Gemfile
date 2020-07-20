@@ -96,6 +96,9 @@ gem "flipper-ui"
 
 gem "counter_culture", "~> 1.11"
 
+# Snyk Testing
+gem "kaminari", "0.17.0"
+
 group :development do
   gem "haml-lint", require: false
   gem "listen", ">= 3.0.5", "< 3.2"
