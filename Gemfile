@@ -50,7 +50,7 @@ gem "apartment", "~> 2.2"
 gem "apartment-sidekiq", "~> 1.2"
 
 # Authentication
-gem "devise", "4.6.0"
+gem "devise", "4.7.1"
 gem "devise_invitable", "~> 1.6.1"
 gem "responders", "2.4.0"
 # Authorization
