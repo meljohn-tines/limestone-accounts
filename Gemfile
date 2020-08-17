@@ -110,7 +110,7 @@ group :test do
   gem "database_cleaner", "~> 1.6"
   gem "faker", "~> 1.8"
   gem "shoulda-matchers", "~> 3.1"
-  gem "simplecov", require: false
+  gem "simplecov", ">= 0.16.1", require: false
 end
 
 group :development, :test do
