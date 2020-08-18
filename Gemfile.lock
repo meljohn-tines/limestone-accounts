@@ -477,7 +477,7 @@ DEPENDENCIES
   shoulda-matchers (~> 3.1)
   sidekiq (~> 5.0)
   simple_form (~> 5)
-  simplecov
+  simplecov (>= 0.16.1)
   spring
   spring-watcher-listen (~> 2.0.0)
   stripe
