@@ -108,7 +108,7 @@ end
 
 group :test do
   gem "database_cleaner", "~> 1.6"
-  gem "faker", "~> 1.7"
+  gem "faker", "~> 2.10.1"
   gem "shoulda-matchers", "~> 3.1"
   gem "simplecov", require: false
 end
@@ -127,3 +127,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data"
+
+# Nudge
