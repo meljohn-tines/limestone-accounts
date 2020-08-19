@@ -50,7 +50,7 @@ gem "apartment", "~> 2.2"
 gem "apartment-sidekiq", "~> 1.2"
 
 # Authentication
-gem "devise", "4.6.0"
+gem "devise", "4.5.0"
 gem "devise_invitable", "~> 1.6.1"
 gem "responders", "2.4.0"
 # Authorization
@@ -110,7 +110,7 @@ group :test do
   gem "database_cleaner", "~> 1.6"
   gem "faker", "~> 1.8"
   gem "shoulda-matchers", "~> 3.1"
-  gem "simplecov", require: false
+  gem "simplecov", "0.16.1", require: false
 end
 
 group :development, :test do
@@ -127,3 +127,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data"
+
+# Exploitable
