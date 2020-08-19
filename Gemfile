@@ -3,10 +3,10 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.4.0"
+ruby "2.3.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
-gem "rails", "~> 5.1"
+gem "rails", "~> 5.2"
 
 # Use postgresql as the database for Active Record
 #gem "pg", "~> 0.21"
@@ -108,7 +108,7 @@ end
 
 group :test do
   gem "database_cleaner", "~> 1.6"
-  gem "faker", "~> 2.10.1"
+  gem "faker", "~> 1.8"
   gem "shoulda-matchers", "~> 3.1"
   gem "simplecov", require: false
 end
@@ -127,5 +127,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data"
-
-# Nudge
