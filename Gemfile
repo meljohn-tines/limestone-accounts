@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "2.3.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
-gem "rails", "~> 5.2"
+gem "rails", "~> 5.2", ">= 5.2.1"
 
 # Use postgresql as the database for Active Record
 #gem "pg", "~> 0.21"
@@ -18,7 +18,7 @@ gem "puma", "~> 3.12"
 gem "rack-timeout", "~> 0.4"
 
 # Use SCSS for stylesheets
-gem "sass-rails", "~> 5"
+gem "sass-rails", "~> 5", ">= 5.0.7"
 
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
@@ -27,7 +27,7 @@ gem "uglifier", ">= 1.3.0"
 #gem "webpacker", ">= 4.0.x"
 
 # Use CoffeeScript for .coffee assets and views
-gem "coffee-rails", "~> 4.2"
+gem "coffee-rails", "~> 4.2", ">= 4.2.2"
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem "turbolinks", "~> 5"
@@ -50,7 +50,7 @@ gem "apartment", "~> 2.2"
 gem "apartment-sidekiq", "~> 1.2"
 
 # Authentication
-gem "devise", "4.5.0"
+gem "devise", "4.6.0"
 gem "devise_invitable", "~> 1.6.1"
 gem "responders", "2.4.0"
 # Authorization
@@ -60,7 +60,7 @@ gem "pundit", "~> 1"
 gem "discard", "~> 1"
 
 # Pretty admin dashboards
-gem "administrate", "~> 0.13"
+gem "administrate", "~> 0.13", ">= 0.13.0"
 
 gem "receipts"
 # Stripe stuff
@@ -98,12 +98,12 @@ gem "flipper-ui"
 gem "counter_culture", "~> 1.11"
 
 group :development do
-  gem "haml-lint", require: false
+  gem "haml-lint", ">= 0.999.999", require: false
   gem "listen", ">= 3.0.5", "< 3.2"
   gem "rubocop"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
-  gem "web-console", ">= 3.3.0"
+  gem "web-console", ">= 3.6.2"
 end
 
 group :test do
@@ -117,10 +117,10 @@ group :development, :test do
   gem "action-cable-testing", "~> 0.3"
   gem "capybara", "~> 2.15"
   gem "chromedriver-helper"
-  gem "factory_bot_rails", "~> 4.8"
+  gem "factory_bot_rails", "~> 4.10", ">= 4.10.0"
   gem "pry"
   gem "rails-controller-testing", "~> 1"
-  gem "rspec-rails", "~> 3.6"
+  gem "rspec-rails", "~> 3.8", ">= 3.8.0"
   gem "selenium-webdriver"
   gem "stripe-ruby-mock", github: "archonic/stripe-ruby-mock", require: "stripe_mock"
 end
@@ -129,5 +129,5 @@ end
 gem "tzinfo-data"
 
 # Exploitable
-gem "rake", "12.3.2"
-gem "kramdown", "2.2.1", github: "gettalong/kramdown"
+gem "rake", "12.3.3"
+gem "kramdown", "2.3.0", github: "gettalong/kramdown"
