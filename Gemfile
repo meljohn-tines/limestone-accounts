@@ -24,7 +24,7 @@ gem "sass-rails", "~> 5"
 gem "uglifier", ">= 1.3.0"
 
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-#gem "webpacker", ">= 4.0.x"
+gem "webpacker", ">= 4.0.x"
 
 # Use CoffeeScript for .coffee assets and views
 gem "coffee-rails", "~> 4.2"
@@ -50,9 +50,8 @@ gem "apartment", "~> 2.2"
 gem "apartment-sidekiq", "~> 1.2"
 
 # Authentication
-gem "devise", "4.6.0"
-gem "devise_invitable", "~> 1.6.1"
-gem "responders", "2.4.0"
+gem "devise", "~> 4"
+gem "devise_invitable", "~> 1.7"
 # Authorization
 gem "pundit", "~> 1"
 
