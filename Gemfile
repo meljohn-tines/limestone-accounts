@@ -33,31 +33,31 @@ gem "coffee-rails", "~> 4.2", ">= 4.2.2"
 gem "turbolinks", "~> 5"
 
 # TODO: Consider replacing with active_model_serializers
-gem "jbuilder", "~> 2.5"
+gem "jbuilder", "~> 2.7", ">= 2.7.0"
 
 # Use Redis Rails to set up a Redis backed Cache and / or Session
-gem "redis-rails", "~> 5.0"
+gem "redis-rails", "~> 5.0", ">= 5.0.2"
 
 # Use Font Awesome Rails for Font Awesome icons
 # gem "font-awesome-rails", "~> 4.7"
 
 # Pretty html abstractions
 gem "haml", "~> 5"
-gem "simple_form", "~> 5"
+gem "simple_form", "~> 5", ">= 5.0.0"
 
 # Multi-tennancy
-gem "apartment", "~> 2.2"
-gem "apartment-sidekiq", "~> 1.2"
+gem "apartment", "~> 2.2", ">= 2.2.0"
+gem "apartment-sidekiq", "~> 1.2", ">= 1.2.0"
 
 # Authentication
 gem "devise", "4.7.1"
 gem "devise_invitable", "~> 1.6.1"
 gem "responders", "2.4.0"
 # Authorization
-gem "pundit", "~> 1"
+gem "pundit", "~> 1", ">= 1.1.0"
 
 # Soft deletes for ActiveRecord done right
-gem "discard", "~> 1"
+gem "discard", "~> 1", ">= 1.0.0"
 
 # Pretty admin dashboards
 gem "administrate", "~> 0.14", ">= 0.14.0"
@@ -78,7 +78,7 @@ gem "mini_magick", ">= 4.3.5"
 gem "bootsnap", ">= 1.1.0", require: false
 
 # Impersonate other users
-gem "pretender"
+gem "pretender", ">= 0.3.2"
 
 # Search
 # gem "searchkick", "~> 3.0"
@@ -95,7 +95,7 @@ gem "flipper"
 gem "flipper-redis"
 gem "flipper-ui"
 
-gem "counter_culture", "~> 1.11"
+gem "counter_culture", "~> 1.12", ">= 1.12.0"
 
 group :development do
   gem "haml-lint", ">= 0.999.999", require: false
@@ -109,12 +109,12 @@ end
 group :test do
   gem "database_cleaner", "~> 1.6"
   gem "faker", "~> 1.8"
-  gem "shoulda-matchers", "~> 3.1"
-  gem "simplecov", require: false
+  gem "shoulda-matchers", "~> 3.1", ">= 3.1.2"
+  gem "simplecov", ">= 0.16.1", require: false
 end
 
 group :development, :test do
-  gem "action-cable-testing", "~> 0.3"
+  gem "action-cable-testing", "~> 0.3", ">= 0.3.1"
   gem "capybara", "~> 2.15"
   gem "chromedriver-helper"
   gem "factory_bot_rails", "~> 4.11", ">= 4.11.1"
