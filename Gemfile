@@ -60,7 +60,7 @@ gem "pundit", "~> 1", ">= 1.1.0"
 gem "discard", "~> 1", ">= 1.0.0"
 
 # Pretty admin dashboards
-gem "administrate", "~> 0.13", ">= 0.13.0"
+gem "administrate", "~> 0.14", ">= 0.14.0"
 
 gem "receipts"
 # Stripe stuff
@@ -101,9 +101,9 @@ group :development do
   gem "haml-lint", ">= 0.999.999", require: false
   gem "listen", ">= 3.0.5", "< 3.2"
   gem "rubocop"
-  gem "spring", ">= 2.0.2"
-  gem "spring-watcher-listen", "~> 2.0.1"
-  gem "web-console", ">= 3.6.2"
+  gem "spring"
+  gem "spring-watcher-listen", "~> 2.0.0"
+  gem "web-console", ">= 3.7.0"
 end
 
 group :test do
@@ -117,10 +117,10 @@ group :development, :test do
   gem "action-cable-testing", "~> 0.3", ">= 0.3.1"
   gem "capybara", "~> 2.15"
   gem "chromedriver-helper"
-  gem "factory_bot_rails", "~> 4.10", ">= 4.10.0"
+  gem "factory_bot_rails", "~> 4.11", ">= 4.11.1"
   gem "pry"
-  gem "rails-controller-testing", "~> 1", ">= 1.0.2"
-  gem "rspec-rails", "~> 3.8", ">= 3.8.0"
+  gem "rails-controller-testing", "~> 1"
+  gem "rspec-rails", "~> 3.9", ">= 3.9.1"
   gem "selenium-webdriver"
   gem "stripe-ruby-mock", github: "archonic/stripe-ruby-mock", require: "stripe_mock"
 end
