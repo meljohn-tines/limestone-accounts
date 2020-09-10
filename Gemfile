@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "2.3.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
-gem "rails", "~> 5.2", ">= 5.2.4.3"
+gem "rails", "~> 5.2", ">= 5.2.4.4"
 
 # Use postgresql as the database for Active Record
 #gem "pg", "~> 0.21"
@@ -43,7 +43,7 @@ gem "redis-rails", "~> 5.0", ">= 5.0.2"
 
 # Pretty html abstractions
 gem "haml", "~> 5"
-gem "simple_form", "~> 5", ">= 5.0.0"
+gem "simple_form", "~> 5", ">= 5.0.2"
 
 # Multi-tennancy
 gem "apartment", "~> 2.2", ">= 2.2.0"
@@ -78,7 +78,7 @@ gem "mini_magick", ">= 4.3.5"
 gem "bootsnap", ">= 1.1.0", require: false
 
 # Impersonate other users
-gem "pretender", ">= 0.3.2"
+gem "pretender", ">= 0.3.4"
 
 # Search
 # gem "searchkick", "~> 3.0"
@@ -114,12 +114,12 @@ group :test do
 end
 
 group :development, :test do
-  gem "action-cable-testing", "~> 0.3", ">= 0.3.1"
+  gem "action-cable-testing", "~> 0.5", ">= 0.5.0"
   gem "capybara", "~> 2.15"
   gem "chromedriver-helper"
   gem "factory_bot_rails", "~> 4.11", ">= 4.11.1"
   gem "pry"
-  gem "rails-controller-testing", "~> 1"
+  gem "rails-controller-testing", "~> 1", ">= 1.0.5"
   gem "rspec-rails", "~> 3.9", ">= 3.9.1"
   gem "selenium-webdriver"
   gem "stripe-ruby-mock", github: "archonic/stripe-ruby-mock", require: "stripe_mock"
