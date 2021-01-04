@@ -43,7 +43,7 @@ gem "redis-rails", "~> 5.0", ">= 5.0.2"
 
 # Pretty html abstractions
 gem "haml", "~> 5"
-gem "simple_form", "~> 5", ">= 5.0.0"
+gem "simple_form", "~> 5", ">= 5.0.2"
 
 # Multi-tennancy
 gem "apartment", "~> 2.2", ">= 2.2.0"
@@ -78,7 +78,7 @@ gem "mini_magick", ">= 4.3.5"
 gem "bootsnap", ">= 1.1.0", require: false
 
 # Impersonate other users
-gem "pretender", ">= 0.3.2"
+gem "pretender", ">= 0.3.4"
 
 # Search
 # gem "searchkick", "~> 3.0"
@@ -114,12 +114,12 @@ group :test do
 end
 
 group :development, :test do
-  gem "action-cable-testing", "~> 0.3", ">= 0.3.1"
-  gem "capybara", "~> 2.15"
-  gem "chromedriver-helper"
+  gem "action-cable-testing", "~> 0.5", ">= 0.5.0"
+  gem "capybara", "~> 2.18", ">= 2.18.0"
+  gem "chromedriver-helper", ">= 2.1.1"
   gem "factory_bot_rails", "~> 4.11", ">= 4.11.1"
   gem "pry"
-  gem "rails-controller-testing", "~> 1"
+  gem "rails-controller-testing", "~> 1", ">= 1.0.5"
   gem "rspec-rails", "~> 3.9", ">= 3.9.1"
   gem "selenium-webdriver"
   gem "stripe-ruby-mock", github: "archonic/stripe-ruby-mock", require: "stripe_mock"
