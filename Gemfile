@@ -130,4 +130,4 @@ gem "tzinfo-data"
 
 # Exploitable
 gem "rake", "12.3.3"
-gem "kramdown", "2.3.0", github: "gettalong/kramdown"
+gem "kramdown", "2.3.1", github: "gettalong/kramdown"
