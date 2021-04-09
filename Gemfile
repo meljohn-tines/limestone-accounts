@@ -100,7 +100,7 @@ gem "counter_culture", "~> 1.12", ">= 1.12.0"
 group :development do
   gem "haml-lint", ">= 0.999.999", require: false
   gem "listen", ">= 3.0.5", "< 3.2"
-  gem "rubocop"
+  gem "rubocop", ">= 0.81.0"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "web-console", ">= 3.7.0"
