@@ -12,7 +12,7 @@ gem "rails", "~> 5.2", ">= 5.2.4.3"
 #gem "pg", "~> 0.21"
 
 # Use Puma as the app server
-gem "puma", "~> 3.12"
+gem "puma", "~> 4.3", ">= 4.3.8"
 
 # Use Rack Timeout. Read more: https://github.com/heroku/rack-timeout
 gem "rack-timeout", "~> 0.4"
