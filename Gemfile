@@ -115,7 +115,7 @@ end
 
 group :development, :test do
   gem "action-cable-testing", "~> 0.3", ">= 0.3.1"
-  gem "capybara", "~> 2.15"
+  gem "capybara", "~> 2.18", ">= 2.18.0"
   gem "chromedriver-helper"
   gem "factory_bot_rails", "~> 4.11", ">= 4.11.1"
   gem "pry"
