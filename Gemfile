@@ -71,7 +71,7 @@ gem "stripe_event", "~> 2.1.1"
 gem "aws-sdk-s3"
 
 # Process images
-gem "image_processing"
+gem "image_processing", ">= 1.12.2"
 gem "mini_magick", ">= 4.3.5"
 
 # Reduces boot times through caching; required in config/boot.rb
