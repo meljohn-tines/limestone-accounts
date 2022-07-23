@@ -33,7 +33,7 @@ gem "coffee-rails", "~> 4.2", ">= 4.2.2"
 gem "turbolinks", "~> 5"
 
 # TODO: Consider replacing with active_model_serializers
-gem "jbuilder", "~> 2.7", ">= 2.7.0"
+gem "jbuilder", "~> 2.10", ">= 2.10.0"
 
 # Use Redis Rails to set up a Redis backed Cache and / or Session
 gem "redis-rails", "~> 5.0", ">= 5.0.2"
@@ -43,10 +43,10 @@ gem "redis-rails", "~> 5.0", ">= 5.0.2"
 
 # Pretty html abstractions
 gem "haml", "~> 5"
-gem "simple_form", "~> 5", ">= 5.0.0"
+gem "simple_form", "~> 5", ">= 5.0.2"
 
 # Multi-tennancy
-gem "apartment", "~> 2.2", ">= 2.2.0"
+gem "apartment", "~> 2.2", ">= 2.2.1"
 gem "apartment-sidekiq", "~> 1.2", ">= 1.2.0"
 
 # Authentication
@@ -57,7 +57,7 @@ gem "responders", "2.4.0"
 gem "pundit", "~> 1", ">= 1.1.0"
 
 # Soft deletes for ActiveRecord done right
-gem "discard", "~> 1", ">= 1.0.0"
+gem "discard", "~> 1", ">= 1.2.0"
 
 # Pretty admin dashboards
 gem "administrate", "~> 0.14", ">= 0.14.0"
@@ -78,7 +78,7 @@ gem "mini_magick", ">= 4.3.5"
 gem "bootsnap", ">= 1.1.0", require: false
 
 # Impersonate other users
-gem "pretender", ">= 0.3.2"
+gem "pretender", ">= 0.3.4"
 
 # Search
 # gem "searchkick", "~> 3.0"
@@ -102,24 +102,24 @@ group :development do
   gem "listen", ">= 3.0.5", "< 3.2"
   gem "rubocop"
   gem "spring"
-  gem "spring-watcher-listen", "~> 2.0.0"
+  gem "spring-watcher-listen", "~> 2.0.1"
   gem "web-console", ">= 3.7.0"
 end
 
 group :test do
   gem "database_cleaner", "~> 1.6"
   gem "faker", "~> 1.8"
-  gem "shoulda-matchers", "~> 3.1", ">= 3.1.2"
+  gem "shoulda-matchers", "~> 3.1", ">= 3.1.3"
   gem "simplecov", ">= 0.16.1", require: false
 end
 
 group :development, :test do
-  gem "action-cable-testing", "~> 0.3", ">= 0.3.1"
+  gem "action-cable-testing", "~> 0.5", ">= 0.5.0"
   gem "capybara", "~> 2.15"
   gem "chromedriver-helper"
   gem "factory_bot_rails", "~> 4.11", ">= 4.11.1"
   gem "pry"
-  gem "rails-controller-testing", "~> 1"
+  gem "rails-controller-testing", "~> 1", ">= 1.0.5"
   gem "rspec-rails", "~> 3.9", ">= 3.9.1"
   gem "selenium-webdriver"
   gem "stripe-ruby-mock", github: "archonic/stripe-ruby-mock", require: "stripe_mock"
