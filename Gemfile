@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "2.3.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
-gem "rails", "~> 5.2", ">= 5.2.4.3"
+gem "rails", "~> 5.2", ">= 5.2.8.1"
 
 # Use postgresql as the database for Active Record
 #gem "pg", "~> 0.21"
@@ -46,7 +46,7 @@ gem "haml", "~> 5"
 gem "simple_form", "~> 5", ">= 5.0.0"
 
 # Multi-tennancy
-gem "apartment", "~> 2.2", ">= 2.2.0"
+gem "apartment", "~> 2.2", ">= 2.2.1"
 gem "apartment-sidekiq", "~> 1.2", ">= 1.2.0"
 
 # Authentication
@@ -57,7 +57,7 @@ gem "responders", "2.4.0"
 gem "pundit", "~> 1", ">= 1.1.0"
 
 # Soft deletes for ActiveRecord done right
-gem "discard", "~> 1", ">= 1.0.0"
+gem "discard", "~> 1", ">= 1.2.0"
 
 # Pretty admin dashboards
 gem "administrate", "~> 0.14", ">= 0.14.0"
