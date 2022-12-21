@@ -18,7 +18,7 @@ gem "puma", "~> 3.12"
 gem "rack-timeout", "~> 0.4"
 
 # Use SCSS for stylesheets
-gem "sass-rails", "~> 5", ">= 5.0.7"
+gem "sass-rails", "~> 6", ">= 6.0.0"
 
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
