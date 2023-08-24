@@ -93,7 +93,7 @@ gem "sidekiq", "~> 5.0"
 # Feature flagging
 gem "flipper"
 gem "flipper-redis"
-gem "flipper-ui"
+gem "flipper-ui", ">= 1.0.0"
 
 gem "counter_culture", "~> 1.12", ">= 1.12.0"
 
