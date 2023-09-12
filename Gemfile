@@ -84,7 +84,7 @@ gem "pretender", ">= 0.3.2"
 # gem "searchkick", "~> 3.0"
 
 # Jerbs
-gem "sidekiq", "~> 5.0"
+gem "sidekiq", "~> 7.1", ">= 7.1.3"
 
 # Use Clockwork or Whenever for recurring background tasks
 # gem "clockwork"
