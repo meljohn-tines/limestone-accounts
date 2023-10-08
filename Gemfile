@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "2.3.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
-gem "rails", "~> 5.2", ">= 5.2.4.3"
+gem "rails", "~> 7.1", ">= 7.1.0"
 
 # Use postgresql as the database for Active Record
 #gem "pg", "~> 0.21"
@@ -114,7 +114,7 @@ group :test do
 end
 
 group :development, :test do
-  gem "action-cable-testing", "~> 0.3", ">= 0.3.1"
+  gem "action-cable-testing", "~> 0.6", ">= 0.6.0"
   gem "capybara", "~> 2.15"
   gem "chromedriver-helper"
   gem "factory_bot_rails", "~> 4.11", ">= 4.11.1"
