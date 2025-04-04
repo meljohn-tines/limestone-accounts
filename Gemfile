@@ -78,7 +78,7 @@ gem "mini_magick", ">= 4.3.5"
 gem "bootsnap", ">= 1.1.0", require: false
 
 # Impersonate other users
-gem "pretender", ">= 0.3.2"
+gem "pretender", ">= 0.6.0"
 
 # Search
 # gem "searchkick", "~> 3.0"
