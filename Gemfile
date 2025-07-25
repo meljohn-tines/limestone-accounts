@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "2.3.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
-gem "rails", "~> 5.2", ">= 5.2.4.3"
+gem "rails", "~> 5.2", ">= 5.2.4.4"
 
 # Use postgresql as the database for Active Record
 #gem "pg", "~> 0.21"
@@ -18,7 +18,7 @@ gem "puma", "~> 3.12"
 gem "rack-timeout", "~> 0.4"
 
 # Use SCSS for stylesheets
-gem "sass-rails", "~> 5", ">= 5.0.7"
+gem "sass-rails", "~> 5", ">= 5.0.8"
 
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
@@ -27,7 +27,7 @@ gem "uglifier", ">= 1.3.0"
 #gem "webpacker", ">= 4.0.x"
 
 # Use CoffeeScript for .coffee assets and views
-gem "coffee-rails", "~> 4.2", ">= 4.2.2"
+gem "coffee-rails", "~> 5.0", ">= 5.0.0"
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem "turbolinks", "~> 5"
@@ -43,16 +43,16 @@ gem "redis-rails", "~> 5.0", ">= 5.0.2"
 
 # Pretty html abstractions
 gem "haml", "~> 5"
-gem "simple_form", "~> 5", ">= 5.0.0"
+gem "simple_form", "~> 5", ">= 5.0.3"
 
 # Multi-tennancy
 gem "apartment", "~> 2.2", ">= 2.2.0"
 gem "apartment-sidekiq", "~> 1.2", ">= 1.2.0"
 
 # Authentication
-gem "devise", "4.7.1"
-gem "devise_invitable", "~> 1.6.1"
-gem "responders", "2.4.0"
+gem "devise", "4.7.2"
+gem "devise_invitable", "~> 1.7.0"
+gem "responders", "2.4.1"
 # Authorization
 gem "pundit", "~> 1", ">= 1.1.0"
 
@@ -60,7 +60,7 @@ gem "pundit", "~> 1", ">= 1.1.0"
 gem "discard", "~> 1", ">= 1.0.0"
 
 # Pretty admin dashboards
-gem "administrate", "~> 0.14", ">= 0.14.0"
+gem "administrate", "~> 0.15", ">= 0.15.0"
 
 gem "receipts"
 # Stripe stuff
@@ -78,7 +78,7 @@ gem "mini_magick", ">= 4.3.5"
 gem "bootsnap", ">= 1.1.0", require: false
 
 # Impersonate other users
-gem "pretender", ">= 0.3.2"
+gem "pretender", ">= 0.4.0"
 
 # Search
 # gem "searchkick", "~> 3.0"
@@ -103,7 +103,7 @@ group :development do
   gem "rubocop"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
-  gem "web-console", ">= 3.7.0"
+  gem "web-console", ">= 4.0.0"
 end
 
 group :test do
@@ -114,13 +114,13 @@ group :test do
 end
 
 group :development, :test do
-  gem "action-cable-testing", "~> 0.3", ">= 0.3.1"
-  gem "capybara", "~> 2.15"
+  gem "action-cable-testing", "~> 0.6", ">= 0.6.0"
+  gem "capybara", "~> 3.0", ">= 3.0.0"
   gem "chromedriver-helper"
-  gem "factory_bot_rails", "~> 4.11", ">= 4.11.1"
+  gem "factory_bot_rails", "~> 5.0", ">= 5.0.0"
   gem "pry"
   gem "rails-controller-testing", "~> 1"
-  gem "rspec-rails", "~> 3.9", ">= 3.9.1"
+  gem "rspec-rails", "~> 4.0", ">= 4.0.0"
   gem "selenium-webdriver"
   gem "stripe-ruby-mock", github: "archonic/stripe-ruby-mock", require: "stripe_mock"
 end
