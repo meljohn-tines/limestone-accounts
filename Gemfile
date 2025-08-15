@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "2.3.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
-gem "rails", "~> 5.2", ">= 5.2.4.3"
+gem "rails", "~> 7.1", ">= 7.1.5.2"
 
 # Use postgresql as the database for Active Record
 #gem "pg", "~> 0.21"
@@ -57,10 +57,10 @@ gem "responders", "2.4.0"
 gem "pundit", "~> 1", ">= 1.1.0"
 
 # Soft deletes for ActiveRecord done right
-gem "discard", "~> 1", ">= 1.0.0"
+gem "discard", "~> 1", ">= 1.2.1"
 
 # Pretty admin dashboards
-gem "administrate", "~> 0.14", ">= 0.14.0"
+gem "administrate", "~> 0.15", ">= 0.15.0"
 
 gem "receipts"
 # Stripe stuff
@@ -95,7 +95,7 @@ gem "flipper"
 gem "flipper-redis"
 gem "flipper-ui"
 
-gem "counter_culture", "~> 1.12", ">= 1.12.0"
+gem "counter_culture", "~> 2.0", ">= 2.0.0"
 
 group :development do
   gem "haml-lint", ">= 0.999.999", require: false
