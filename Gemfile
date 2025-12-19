@@ -68,7 +68,7 @@ gem "stripe"
 gem "stripe_event", "~> 2.1.1"
 
 # Upload to S3 directly
-gem "aws-sdk-s3"
+gem "aws-sdk-s3", ">= 1.208.0"
 
 # Process images
 gem "image_processing"
