@@ -64,8 +64,8 @@ gem "administrate", "~> 0.14", ">= 0.14.0"
 
 gem "receipts"
 # Stripe stuff
-gem "stripe"
-gem "stripe_event", "~> 2.1.1"
+gem "stripe", ">= 5.0.0"
+gem "stripe_event", "~> 2.3.0"
 
 # Upload to S3 directly
 gem "aws-sdk-s3"
